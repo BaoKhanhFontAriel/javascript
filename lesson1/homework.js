@@ -52,9 +52,17 @@ function convertLength(cm) {
   console.log(cm, "cm to km:", cm / 1000);
 }
 
-rectPerimeter(2,3);
-rectArea(2,3);
+//5
+
+function convertTemperate(celcius) {
+  console.log(celcius, "celcius to Fahrenheit", celcius * 1.8 + 32);
+  console.log(celcius, "celcius to Kevin", celcius + 273.15);
+}
+
+rectPerimeter(2, 3);
+rectArea(2, 3);
 roundPerimeter(3);
 roundArea(3);
-simpleEquation(2,4);
+simpleEquation(2, 4);
 convertLength(100);
+convertTemperate(100);
