@@ -57,7 +57,7 @@ function capitalize(str) {
   console.log(str.toUpperCase());
 }
 
-sumAvg([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+sumAvg([1, 2, 3, 4, 5]);
 findMax([1, 2, 3, 4, 5, 6, 7, 8]);
 console.log(fibonaci(6));
 console.log(removeFalsy([0, 1, 0, 0, 1, 1]));
